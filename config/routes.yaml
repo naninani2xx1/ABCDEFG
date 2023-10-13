@@ -1,3 +1,12 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+test:
+  path: /test
+  controller: App\Controller\UserController::listUsers
+
+  
+create:
+  path: /create
+  controller: App\Controller\UserController::addUser
